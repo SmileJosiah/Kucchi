@@ -8,6 +8,14 @@
     </parent>
 
     <artifactId>kucchi-service</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>kucchi-service-server</module>
+        <module>kucchi-service-api</module>
+        <module>kucchi-service-domain</module>
+        <module>kucchi-service-provider</module>
+    </modules>
+
 
 </project>
